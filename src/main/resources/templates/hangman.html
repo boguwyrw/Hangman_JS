@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <script th:src="@{js/gameEngine.js}"></script>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div id="pojemnik">
+    <div id="plansza"></div>
+    <div id="szubienica">
+        <img src="img/s0.jpg" alt="">
+    </div>
+    <div id="alfabet"></div>
+    <div style="clear:both;"></div>
+    <div id="dodawanie">
+        <input type="text" id="pole">
+        <input type="submit" value="Dodaj">
+    </div>
+</div>
+</body>
+</html>
